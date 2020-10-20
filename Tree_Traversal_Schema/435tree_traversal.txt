@@ -1,0 +1,13 @@
+From,To,State 
+Normal,Node1,Truncal
+Node1,Prim,NonEro
+Node1,Node2,Ero
+Node2,Met2,Ero
+Node2,Node3,Ero
+Node3,Node4,Ero
+Node4,Met4,Ero
+Node4,Node5,Ero
+Node5,Met1,Ero
+Node5,Node6,Ero
+Node6,Met3,Ero
+Node6,Met7,Ero

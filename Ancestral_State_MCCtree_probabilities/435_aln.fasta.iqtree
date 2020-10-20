@@ -1,0 +1,103 @@
+IQ-TREE 1.6.1 built Feb 16 2018
+
+Input file name: 435_aln.fasta
+User tree file name: 435-tree.newick
+Type of analysis: tree reconstruction
+Random seed number: 354289
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 9 sequences with 94 nucleotide sites
+Number of constant sites: 0 (= 0% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 0 (= 0% of all sites)
+Number of parsimony informative sites: 48
+Number of distinct site patterns: 59
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F
+
+Rate parameter R:
+
+  A-C: 1.3816
+  A-G: 1.6075
+  A-T: 0.3436
+  C-G: 1.0474
+  C-T: 1.0763
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2575
+  pi(C) = 0.2527
+  pi(G) = 0.2214
+  pi(T) = 0.2684
+
+Rate matrix Q:
+
+  A    -1.006    0.4405     0.449    0.1163
+  C    0.4489    -1.106    0.2926    0.3644
+  G    0.5222    0.3339    -1.195    0.3385
+  T    0.1116    0.3431    0.2793   -0.7341
+
+Model of rate heterogeneity: Uniform
+
+USER TREE
+---------
+
+Log-likelihood of the tree: -592.9517 (s.e. 21.3705)
+Unconstrained log-likelihood (without tree): -367.5641
+Number of free parameters (#branches + #model parameters): 23
+Akaike information criterion (AIC) score: 1231.9035
+Corrected Akaike information criterion (AICc) score: 1247.6749
+Bayesian information criterion (BIC) score: 1290.3992
+
+Total tree length (sum of branch lengths): 0.3720
+Sum of internal branch lengths: 0.1639 (44.0481% of tree length)
+
+WARNING: 3 near-zero internal branches (<0.0106) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Normal' is drawn at root
+
++------------------------------------Normal
+| (Node1)
++--------------Prim
+|
+|                                  +**Met0
++----------------------------------| (Node2)
+                                   |                    +**Met1
+                                   |                 +**| (Node5)
+                                   |                 |  |  +**Met3
+                                   |                 |  +**| (Node6)
+                                   |                 |     +**Met7
+                                   |          +------| (Node4)
+                                   |          |      +---Met4
+                                   +----------| (Node3)
+                                              |  +---Met5
+                                              +**| (Node7)
+                                                 +---Met6
+
+Tree in newick format:
+
+(Normal:0.1079234942,Prim:0.0426982575,(Met0:0.0000021695,(((Met1:0.0033758884,(Met3:0.0067377379,Met7:0.0033200983)Node6:0.0033440798)Node5:0.0065253522,Met4:0.0137475881)Node4:0.0203721903,(Met5:0.0133539224,Met6:0.0136481347)Node7:0.0033366079)Node3:0.0340194839)Node2:0.0996136149)Node1;
+
+TIME STAMP
+----------
+
+Date and time: Thu Jun 25 15:54:04 2020
+Total CPU time used: 0 seconds (0h:0m:0s)
+Total wall-clock time used: 0.0824399 seconds (0h:0m:0s)
+
